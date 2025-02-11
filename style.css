@@ -1,0 +1,178 @@
+/* Import Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap');
+
+/* Apply Font and Background */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px; /* Increased base font size */
+    color: white; /* White text for contrast */
+    background-color: #000; /* Pure black background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+
+/* Paragraphs */
+p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #bbb; /* Light gray for better readability */
+}
+
+/* Navigation */
+nav a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+/* Buttons */
+button {
+    font-size: 22px;
+    padding: 12px 24px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #111; /* Slightly lighter black for depth */
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.auth-buttons .btn-outline, .btn-primary {
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    background: none;
+    color: white;
+}
+
+.btn-primary {
+    background: white;
+    color: black;
+    border: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+.hero img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.request-demo {
+    text-align: center;
+    padding: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.analytics {
+    background: white;
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.analytics-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.analytics-card {
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.security {
+    padding: 50px;
+}
+
+.security-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.founders {
+    text-align: center;
+    padding: 50px;
+}
+
+.founders-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid gray;
+}
